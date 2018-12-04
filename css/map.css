@@ -1,0 +1,156 @@
+div#leftdiv{
+	height: 657px;
+	background-color: gray;
+	width: 150px;	
+	float: left;
+}
+div#radius{
+	position: absolute;
+	left: 45px;
+	top: 30px;
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+}
+font#logo{
+	display: block;
+	padding-left:17px;
+	padding-top: 20px;
+}
+font#name{
+	display: block;
+	padding-left: 50px;
+	padding-top: 200px;
+	font-size: 40px;
+}
+img#map{
+	float: left;
+	height: 657px;
+	width:1150px;
+}
+img#sign{
+	position: absolute;
+	left: 250px;
+	top: 150px;
+	height: 15px;
+	width: 15px;
+}
+div#updiv{
+	width: 1358px;
+	background-color: gray;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+div#updivradius{
+	position: absolute;
+	left: 50px;
+	top: 17px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+}
+font#assure{
+	display: block;
+	padding-left: 50px;
+	padding-top: 50px;
+	float: left;
+}
+font#reset{
+	display:block;
+	padding-left:150px;
+	padding-top:50px;
+}
+hr#assureline{
+	position: absolute;
+	left: 53px;
+	width: 70px;
+}
+hr#resetline{
+	position: absolute;
+	left: 152px;
+	width: 70px;
+}
+hr#boundary{
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	width: 1300px;
+	height: 23px;
+	background-color:darkcyan;
+}
+font#oldpaw{
+	position: absolute;
+	left: 45px;
+	top: 250px;
+}
+input#oldpaw{
+	position: absolute;
+	top: 250px;
+	left: 120px;
+}
+font#enteroldpaw{
+	position: absolute;
+	left: 300px;
+	top: 250px;
+	font-size: 11px;
+}
+font#newpaw{
+	position: absolute;
+	left: 45px;
+	top: 300px;
+}
+input#newpaw{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+}
+font#enternewpaw{
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	font-size: 11px;
+}
+font#assurepaw{
+	position: absolute;
+	left: 45px;
+	top: 350px;
+}
+input#assurepaw{
+	position: absolute;
+	left: 120px;
+	top: 350px;
+}
+input#set{
+	position: absolute;
+	left: 150px;
+	top: 430px;
+	width: 75px;
+}
+input#cancel{
+	position: absolute;
+	left: 250px;
+	top: 430px;
+	width: 75px;
+}
+hr#afterassure{
+	position: absolute;
+	left: 75px;
+	top: 500px;
+	border-color: gray;
+	width: 1200px;
+	border: 1px dashed gray;
+}
+input#returnlist{
+	position: absolute;
+	left: 1000px;
+	top: 600px;
+}
+input#returnmap{
+	width: 115px;
+	position: absolute;
+	left: 1150px;
+	top: 600px;
+}

@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>修改信息</title>
+    <link rel="stylesheet"  type="text/css"  href="css/updateinf.css" />
+    <style>
+        .dropbtn {
+            background-color: grey;
+            color: white;
+            padding: 10px;
+            font-size: 16px;
+            border: none;
+            cursor: pointer;
+        }
+
+        .dropdown {
+            position: relative;
+            display: inline-block;
+        }
+
+        .dropdown-content {
+            display: none;
+            position: absolute;
+            background-color: #f9f9f9;
+            min-width: 160px;
+            box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+        }
+
+        .dropdown-content a {
+            color: black;
+            border-radius: 50%;
+            text-decoration: none;
+            display: block;
+        }
+
+        .dropdown-content a:hover {background-color: #f1f1f1}
+
+        .dropdown:hover .dropdown-content {
+            display: block;
+        }
+
+        .dropdown:hover .dropbtn {
+            background-color: forestgreen;
+        }
+    </style>
+</head>
+<body>
+<div id="leftdiv" >
+    <div id="radius">
+        <font id="logo">logo</font>
+    </div>
+    <font id="name">充<br />电<br />桩<br />管<br />理</font>
+</div>
+
+<div style="opacity:0.5;position:absolute;left:0px;top: 0px;width:1351px;height:60px;background-color:gray"></div>
+
+<form>
+    <img src="img/head sculpture.png" alt = "" width = "30" height = "30" style = "position: absolute;left: 1180px;top: 15px">
+    <p style="position: absolute;left: 1220px;top: 5px">jjl</p>
+    <div class="dropdown" style = "position: absolute;left: 1240px;top: 10px">
+        <button class="dropbtn">下拉</button>
+        <div class="dropdown-content">
+            <a href="登录.html">/退出当前账号</a>
+        </div>
+    </div>
+</form>
+
+<div id="downdiv">
+    <font id="assure">账号信息</font>
+    <hr id="assureline"/>
+    <hr id="boundary"/>
+    <form action="" method="post">
+        <font id="oldpaw">账号昵称：</font>
+        <input type="text" name="oldpaw" id="oldpaw" value="jjl" />
+        <font id="newpaw">联系方式：</font>
+        <input type="text" name="newpaw" id="newpaw" value="15000000000" />
+        <font id="assurepaw">关注列表：</font>
+        <input type="text" name="assurepaw" id="assurepaw" value="精思苑3号楼" />
+        <input type="button" name="returnlist" id="returnlist" value="返回充电桩列表" onclick="location='ListCS.html'"/>
+        <input type="button" name="returnmap" id="returnmap" value="返回地图" onclick="location='map.html'"/>
+    </form>
+    <hr id="afterassure"/>
+</div>
+
+</body>
+</html>

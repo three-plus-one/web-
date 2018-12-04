@@ -1,0 +1,298 @@
+div#leftdiv{
+	height: 657px;
+	background-color: gray;
+	width: 150px;	
+	float: left;
+}
+div#leftdiv1{
+	height: 657px;
+	background-color: DARKGRAY;
+	width: 150px;	
+	float: left;
+}
+div#radius{
+	position: absolute;
+	left: 45px;
+	top: 30px;
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+}
+div#radius1{
+	position: absolute;
+	left: 45px;
+	top: 100px;
+	height: 70px;
+	width: 70px;
+	background-color: white;
+	border-radius: 50%;
+}
+font#logo{
+	display: block;
+	padding-left:17px;
+	padding-top: 20px;
+}
+font#logo1{
+	display: block;
+	padding-left:17px;
+	padding-top: 25px;
+}
+font#name{
+	display: block;
+	padding-left: 50px;
+	padding-top: 200px;
+	font-size: 40px;
+}
+font#name1{
+	display: block;
+	padding-left: 50px;
+	padding-top: 200px;
+	font-size: 40px;
+}
+img#map{
+	height: 657px;
+	width:1150px;
+}
+img#5739{
+                top:340px;
+                left:65px;
+	height: 25px;
+	width:140px;
+}
+div#updiv{
+	width: 1358px;
+	background-color: gray;
+	height: 70px;
+	text-align: center;
+	line-height: 70px;
+}
+div#updivradius{
+	position: absolute;
+	left: 50px;
+	top: 17px;
+	height: 50px;
+	width: 50px;
+	border-radius: 50%;
+	background-color: white;
+}
+font#assure{
+	display: block;
+	padding-left: 50px;
+	padding-top: 50px;
+	float: left;
+}
+font#reset{
+	display:block;
+	padding-left:150px;
+	padding-top:50px;
+}
+font#reset1{
+	display:block;
+	padding-left:250px;
+	padding-top:50px;
+}
+hr#assureline{
+	position: absolute;
+	left: 53px;
+	width: 70px;
+}
+hr#resetline{
+	position: absolute;
+	left: 152px;
+	width: 70px;
+}
+hr#resetline1{
+	position: absolute;
+	left: 250px;
+	width: 70px;
+}
+hr#boundary{
+	position: absolute;
+	top: 170px;
+	left: 30px;
+	width: 1300px;
+	height: 23px;
+	background-color:darkcyan;
+}
+hr#boundary1{
+	position: absolute;
+	top: 170px;
+	left: 158px;
+	width: 1200px;
+	height: 23px;
+	background-color:darkcyan;
+}
+font#oldpaw{
+	position: absolute;
+	left: 45px;
+	top: 250px;
+}
+font#oldpaw1{
+	position: absolute;
+	left: 270px;
+	top: 250px;
+}
+font#findpaw{
+	position: absolute;
+	left: 45px;
+	top: 250px;
+}
+input#oldpaw{
+	position: absolute;
+	top: 250px;
+	left: 120px;
+}
+input#oldpaw1{
+	position: absolute;
+	top: 250px;
+	left: 350px;
+}
+input#findpaw{
+	position: absolute;
+	top: 280px;
+	left: 45px;
+}
+font#enteroldpaw{
+	position: absolute;
+	left: 300px;
+	top: 250px;
+	font-size: 11px;
+}
+font#enteroldpaw1{
+	position: absolute;
+	left: 525px;
+	top: 250px;
+	font-size: 11px;
+}
+font#enteroldphone{
+	position: absolute;
+	left: 320px;
+	top: 280px;
+	font-size: 14px;
+}
+font#newpaw{
+	position: absolute;
+	left: 45px;
+	top: 300px;
+}
+font#newpaw1{
+	position: absolute;
+	left: 270px;
+	top: 300px;
+}
+input#newpaw{
+	position: absolute;
+	left: 120px;
+	top: 300px;
+}
+input#newpaw1{
+	position: absolute;
+	left: 350px;
+	top: 300px;
+}
+font#enternewpaw{
+	position: absolute;
+	left: 300px;
+	top: 300px;
+	font-size: 11px;
+}
+font#enternewpaw1{
+	position: absolute;
+	left: 525px;
+	top: 300px;
+	font-size: 11px;
+}
+font#assurepaw{
+	position: absolute;
+	left: 45px;
+	top: 350px;
+}
+font#assurepaw1{
+	position: absolute;
+	left: 270px;
+	top: 350px;
+}
+input#assurepaw{
+	position: absolute;
+	left: 120px;
+	top: 350px;
+}
+input#assurepaw1{
+	position: absolute;
+	left: 350px;
+	top: 350px;
+}
+font#captcha{
+                position:absolute;
+                left:45px;
+                top:310px;
+}
+input#captcha{
+                position:absolute;
+                left:45px;
+                top:340px;
+}
+font#entercaptcha{
+	position: absolute;
+	left: 360px;
+	top: 342px;
+	font-size: 14px;
+}
+input#set{
+	position: absolute;
+	left: 150px;
+	top: 430px;
+	width: 75px;
+}
+input#set1{
+	position: absolute;
+	left: 375px;
+	top: 430px;
+	width: 75px;
+}
+input#next{
+	position: absolute;
+	left: 150px;
+	top: 430px;
+	width: 75px;
+}
+input#cancel{
+	position: absolute;
+	left: 250px;
+	top: 430px;
+	width: 75px;
+}
+input#cancel1{
+	position: absolute;
+	left: 500px;
+	top: 430px;
+	width: 75px;
+}
+hr#afterassure{
+	position: absolute;
+	left: 75px;
+	top: 500px;
+	border-color: gray;
+	width: 1200px;
+	border: 1px dashed gray;
+}
+hr#afterassure1{
+	position: absolute;
+	left: 160px;
+	top: 500px;
+	border-color: gray;
+	width: 1100px;
+	border: 1px dashed gray;
+}
+input#returnlist{
+	position: absolute;
+	left: 1000px;
+	top: 600px;
+}
+input#returnmap{
+	width: 115px;
+	position: absolute;
+	left: 1150px;
+	top: 600px;
+}

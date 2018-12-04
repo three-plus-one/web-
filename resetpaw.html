@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="UTF-8">
+		<title>重置密码</title>
+		<link rel="stylesheet" type="text/css" href="css/map.css"/>
+	</head>
+	<body>
+		<div id="updiv">
+			充电桩管理
+			<div id="updivradius">
+			</div>
+		</div>
+		<div id="downdiv">
+			<font id="assure">确认账号</font>
+			<font id="reset">修改密码</font>
+			<hr id="assureline"/>
+			<hr id="resetline"/>
+			<hr id="boundary"/>
+			<form action="" method="post">
+				<font id="oldpaw">原密码：</font>
+				<input type="text" name="oldpaw" id="oldpaw" value="" />
+				<font id="enteroldpaw">（请输入原密码）</font>
+				<font id="newpaw">新密码:</font>
+				<input type="text" name="newpaw" id="newpaw" value="" />
+				<font id="enternewpaw">（需要包含字母、数字、下划线中不少于两种且长度不少于8位）</font>
+				<font id="assurepaw">确定密码：</font>
+				<input type="text" name="assurepaw" id="assurepaw" value="" />
+				<input type="button" name="set" id="set" value="确定" />
+				<input type="button" name="cancel" id="cancel" value="取消" />
+				<input type="button" name="returnlist" id="returnlist" value="返回充电桩列表"/>
+				<input type="button" name="returnmap" id="returnmap" value="返回地图"  onclick="location='map.html'"/>
+			</form>
+			<hr id="afterassure"/>
+		</div>
+	</body>
+</html>
